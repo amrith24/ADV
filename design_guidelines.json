@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "brand_name": "Advalora Consulting",
+    "audience": "CIOs and CTOs",
+    "founder_positioning": "Ex-Oracle LMS (License Management Services) employee with deep Oracle licensing expertise",
+    "app_type": "landing_page",
+    "vibe": "Simple professional, functional, conservative B2B aesthetic, trustworthy, authoritative"
+  },
+  "theme": "light",
+  "archetype": "4 (Swiss & High-Contrast)",
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#FAFAFA",
+      "tertiary": "#F4F4F5",
+      "dark_section": "#09090B"
+    },
+    "text": {
+      "primary": "#09090B",
+      "secondary": "#52525B",
+      "inverse": "#FFFFFF",
+      "accent": "#DC2626"
+    },
+    "primary": {
+      "DEFAULT": "#09090B",
+      "hover": "#27272A",
+      "foreground": "#FFFFFF"
+    },
+    "accent": {
+      "DEFAULT": "#DC2626",
+      "hover": "#B91C1C",
+      "foreground": "#FFFFFF"
+    },
+    "border": "#E4E4E7"
+  },
+  "typography": {
+    "heading_font": "Cabinet Grotesk",
+    "body_font": "IBM Plex Sans",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tighter font-bold",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-semibold",
+      "h3": "text-xl sm:text-2xl font-semibold",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-zinc-700",
+      "overline": "text-xs sm:text-sm tracking-[0.2em] uppercase font-semibold text-zinc-500"
+    }
+  },
+  "spacing_and_layout": {
+    "strategy": "Generous Spacing Philosophy. Wide margins, stark whitespace. Use p-8 to p-16 inside containers. Sections require py-24 or py-32 to breathe.",
+    "grid_system": "The 'Grid Borders' Technical Look. Use border-collapse logic for feature grids to expose the skeleton, creating a data-heavy, precise feel suitable for CIOs.",
+    "alignment": "Strict left-alignment for headers, paragraphs, and lists to mimic executive briefs and documentation. Avoid center-alignment disease."
+  },
+  "surfaces_and_borders": {
+    "style": "Flat Solid surfaces with crisp 1px borders. Zero soft drop-shadows. Shadows should be hard/solid if used at all (Neobrutalist influence but highly toned down for enterprise).",
+    "radius": "rounded-none or max 2px (rounded-sm) to maintain a rigid, technical structure."
+  },
+  "media": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBza3lzY3JhcGVyJTIwYXJjaGl0ZWN0dXJlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzgyMDY4NzI5fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Abstract modern skyscraper architecture",
+      "placement": "Hero section background, set to very low opacity (e.g., 5-10%) or mixed with a white gradient to ensure text readability."
+    },
+    "tech_abstract": {
+      "url": "https://images.pexels.com/photos/17489157/pexels-photo-17489157.jpeg",
+      "description": "Detailed view of a server rack with focus on technology.",
+      "placement": "Cloud Migration / BYOL context or to break up solid text sections."
+    },
+    "founder_portrait": {
+      "url": "https://images.pexels.com/photos/8353841/pexels-photo-8353841.jpeg",
+      "description": "Professional executive sitting confidently with screens in background.",
+      "placement": "Used in the 'Why Advalora / Founder Credibility' section to establish instant trust."
+    }
+  },
+  "motion_and_interaction": {
+    "philosophy": "Minimalist and precise.",
+    "hover": "Buttons shift background color crisply. Links get an underline with an offset.",
+    "scroll": "Smooth scrolling via Lenis for a premium feel. Subtle fade-in-up for major sections."
+  },
+  "components": {
+    "html_custom": [
+      "Hero Section: High-contrast split or stark left-aligned layout.",
+      "Services Grid: pure HTML + Tailwind grid with 'border-r border-b border-zinc-200' on items.",
+      "Process Steps: Numbered vertical timeline or horizontal cards with massive typography for numbers."
+    ],
+    "shadcn_ui": [
+      "Accordion: Heavily customized for FAQs. Flat, 1px bottom border, left-aligned.",
+      "Form/Input/Textarea: For the Lead Capture section. Sharp corners, background zinc-50."
+    ],
+    "icons": "Use Phosphor Icons (@phosphor-icons/react) in 'regular' or 'light' weight."
+  },
+  "testing": {
+    "data_testid": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case."
+  },
+  "instructions_to_main_agent": [
+    "Build a single-page scrolling landing page prioritizing B2B enterprise conversion.",
+    "Install and use @phosphor-icons/react for a premium enterprise icon set.",
+    "Include a visible Sticky Header with Logo, Navigation Links, and CTA button. Use solid background or crystal glassmorphism for the header.",
+    "Design the Hero Section with a stark, outcome-focused value proposition targeting CIOs/CTOs, alongside two CTAs ('Book Discovery Call' and a WhatsApp link).",
+    "Include a 'Pain Points' section (Audit risk, ULA traps, overspending) using a problem-solution layout.",
+    "Design a 'Services' grid displaying Oracle audit defense, optimization, contract negotiation, compliance, and cloud migration (BYOL/OCI).",
+    "Include a dedicated 'Founder Expertise' section highlighting the Ex-Oracle LMS background.",
+    "Include an FAQ section using Shadcn Accordion.",
+    "Include a Lead Capture Form section above the Footer.",
+    "Ensure 'Cabinet Grotesk' is used for Headings and 'IBM Plex Sans' for Body text.",
+    "Enforce strict left-alignment on content. Avoid center-alignment disease.",
+    "Do not use generic 'Vercel/Stripe' shadows. Use flat, structural 1px grid borders."
+  ]
+}
