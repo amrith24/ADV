@@ -1,7 +1,7 @@
 export const BRAND = {
   name: "Advalora Consulting",
   mark: "Advalora",
-  email: "amrith.pujarie@advaloraconuslting.com",
+  email: "amrith.pujarie@advaloraconsulting.com",
   whatsapp: "919820771922",
   whatsappDisplay: "+91 98207 71922",
   linkedin: "https://www.linkedin.com/in/amrith-pujarie/",
