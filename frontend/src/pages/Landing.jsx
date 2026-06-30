@@ -59,7 +59,7 @@ const PAIN_POINTS = [
     icon: ChartLineUp,
     title: "Cloud spend has overtaken the on-prem budget it was meant to replace.",
     body:
-      "OCI credits, BYOL maths, and authorised-cloud rules (AWS / Azure) leave most enterprises double-paying — once on-prem, once in the cloud.",
+      "M365 E5 seats handed to every contractor. OCI credits expiring unused. Azure BYOL paid for and then paid for again. AWS Oracle workloads running unauthorised. The story is the same — opaque metrics, shadow IT, and a 25–40% over-spend hiding in the renewal line.",
   },
   {
     icon: Database,
