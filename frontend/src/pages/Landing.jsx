@@ -30,6 +30,7 @@ import {
 } from "@/components/ui/accordion";
 import { toast } from "sonner";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import { BRAND, WHATSAPP_LINK, MAIL_LINK } from "@/lib/constants";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
@@ -425,7 +426,9 @@ function Hero() {
             </div>
 
             <div className="mt-8 flex items-center gap-6 text-[12px] font-mono uppercase tracking-[0.16em] text-zinc-500">
-              <span>NDA on request</span>
+              <Link to="/nda" data-testid="hero-nda-link" className="hover:text-zinc-950 transition-colors underline-offset-4 hover:underline">
+                NDA on request
+              </Link>
               <span className="h-3 w-px bg-zinc-300" />
               <span>Privileged engagement</span>
               <span className="h-3 w-px bg-zinc-300" />
@@ -1220,7 +1223,14 @@ function Footer() {
               &copy; {new Date().getFullYear()} {BRAND.name}. All rights reserved.
             </div>
             <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-zinc-500">
-              Confidential. NDA on request.
+              Confidential.{" "}
+              <Link
+                to="/nda"
+                data-testid="footer-nda-link"
+                className="text-zinc-300 hover:text-white underline-offset-4 hover:underline transition-colors"
+              >
+                NDA on request.
+              </Link>
             </div>
           </div>
         </div>

@@ -1,0 +1,236 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+================================
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of
+_______________ (the "Effective Date") by and between:
+
+ADVALORA CONSULTING, a proprietorship firm with its principal place of
+business at C 228 Shreyas Industrial Estate, Near Jay Coach, Goregaon East,
+Mumbai 400063, Maharashtra, India ("Advalora"); and
+
+________________________________________________________________________,
+a __________________________ incorporated under the laws of _____________
+with its principal place of business at __________________________________
+______________________________________________________ (the "Client").
+
+Advalora and the Client are each a "Party" and together the "Parties".
+
+
+1. PURPOSE
+The Parties wish to explore and/or undertake a business relationship in
+connection with software licensing advisory, software asset management
+(SAM), IT asset management (ITAM) advisory, vendor audit defense, contract
+review, optimisation and related professional services (the "Purpose"). To
+facilitate the Purpose, each Party may disclose to the other certain
+Confidential Information.
+
+
+2. CONFIDENTIAL INFORMATION
+"Confidential Information" means any non-public information, in any form
+or medium (oral, written, electronic, visual or otherwise) disclosed by or
+on behalf of one Party (the "Disclosing Party") to the other (the
+"Receiving Party") in connection with the Purpose, including without
+limitation:
+
+  (a) business plans, strategies, financial and commercial information,
+      customer and vendor lists, contracts, ordering documents, master
+      agreements, statements of work, licence terms, audit notices and
+      findings, internal correspondence and negotiation positions;
+  (b) technical, operational and architectural information, including
+      deployment configurations, infrastructure inventories, source code,
+      scripts, telemetry, measurement-tool outputs, effective licence
+      positions, methodologies, models, work-products and deliverables;
+  (c) personal data and employee or contractor information disclosed in
+      the course of the engagement;
+  (d) any information that, given its nature or the circumstances of
+      disclosure, a reasonable person would understand to be confidential;
+      and
+  (e) the existence, status and contents of any discussions, proposals or
+      transactions between the Parties.
+
+
+3. EXCLUSIONS
+Confidential Information does not include information that the Receiving
+Party can demonstrate by written records:
+
+  (a) was lawfully known to it, without confidentiality obligation, prior
+      to disclosure by the Disclosing Party;
+  (b) is or becomes publicly available through no act or omission of the
+      Receiving Party or its Representatives in breach of this Agreement;
+  (c) is rightfully received from a third party without restriction and
+      without breach of any duty of confidentiality;
+  (d) is independently developed by the Receiving Party without reference
+      to or use of the Disclosing Party's Confidential Information; or
+  (e) is required to be disclosed by applicable law, court order or
+      competent regulatory authority, provided that the Receiving Party
+      (where lawful) gives the Disclosing Party prompt written notice and
+      cooperates reasonably in any effort to obtain protective relief.
+
+
+4. USE AND PROTECTION
+4.1 The Receiving Party shall use Confidential Information solely for the
+Purpose and for no other commercial, competitive or personal benefit.
+
+4.2 The Receiving Party shall protect Confidential Information with at
+least the same degree of care it uses to protect its own confidential
+information of a similar nature, and in no event with less than reasonable
+care, including the implementation of administrative, technical and
+physical safeguards appropriate to the sensitivity of the information.
+
+4.3 The Receiving Party shall limit access to Confidential Information to
+its directors, officers, employees, contractors, professional advisors and
+affiliates ("Representatives") who: (a) have a need to know for the
+Purpose; (b) have been informed of the confidential nature of the
+information; and (c) are bound by written confidentiality obligations no
+less protective than those of this Agreement. The Receiving Party shall
+remain responsible for any act or omission of its Representatives.
+
+
+5. RESTRICTIONS ON VENDOR COMMUNICATION
+Without the Disclosing Party's prior written consent, the Receiving Party
+shall not contact, notify, share or otherwise disclose any Confidential
+Information to any software vendor, licensor, licensing audit body,
+original equipment manufacturer, or any of their employees, agents,
+affiliates or partners. This clause is intended to preserve the strategic
+and commercial position of the Disclosing Party and shall be strictly
+observed.
+
+
+6. NO LICENCE; NO WARRANTY
+6.1 No licence, assignment, ownership interest or other right (express or
+implied) in or to any Confidential Information, intellectual property,
+trade mark, trade secret or deliverable is granted by this Agreement. All
+rights remain with the Disclosing Party.
+
+6.2 All Confidential Information is provided "as is". Neither Party makes
+any representation or warranty, express or implied, as to its accuracy,
+completeness, non-infringement or fitness for any particular purpose.
+
+
+7. TERM AND SURVIVAL
+7.1 This Agreement shall commence on the Effective Date and remain in
+force for a period of two (2) years (the "Term"), unless extended or
+terminated earlier by mutual written agreement.
+
+7.2 The obligations of confidentiality and non-use set out in this
+Agreement shall survive expiry or termination for a period of five (5)
+years from the date of disclosure of the relevant Confidential Information.
+Trade secrets shall be protected for so long as they retain such status
+under applicable law.
+
+
+8. RETURN OR DESTRUCTION
+Upon written request of the Disclosing Party, or upon expiry or termination
+of this Agreement, the Receiving Party shall, at the Disclosing Party's
+election, promptly return or securely destroy all Confidential Information
+in its possession or control (including copies, summaries, extracts and
+derivatives), and certify such return or destruction in writing within
+fifteen (15) business days. The Receiving Party may retain one archival
+copy solely to evidence its compliance with this Agreement or to satisfy
+legal, regulatory or audit retention requirements, subject to continuing
+confidentiality obligations.
+
+
+9. REMEDIES
+The Parties acknowledge that any breach of this Agreement may cause
+irreparable harm for which monetary damages would be inadequate. The
+non-breaching Party shall therefore be entitled to seek equitable relief,
+including injunctive relief and specific performance, in addition to any
+other remedies available at law or in equity, without the requirement to
+post a bond or other security.
+
+
+10. NON-SOLICITATION
+During the Term and for a period of twelve (12) months thereafter, neither
+Party shall directly or indirectly solicit for employment any employee or
+contractor of the other Party with whom it has had material contact in
+connection with the Purpose. General advertising not specifically targeted
+at such persons, and the consideration of unsolicited applications, shall
+not constitute a breach of this clause.
+
+
+11. NO PARTNERSHIP; NO OBLIGATION TO PROCEED
+Nothing in this Agreement shall create any partnership, joint venture,
+agency, fiduciary or employment relationship between the Parties, nor
+shall it obligate either Party to enter into any further agreement,
+engagement or transaction. Each Party shall remain free to pursue similar
+discussions with third parties, provided no Confidential Information is
+used or disclosed in breach of this Agreement.
+
+
+12. GOVERNING LAW AND JURISDICTION
+This Agreement shall be governed by and construed in accordance with the
+laws of the Republic of India, without regard to its conflict-of-law
+principles. The courts at Mumbai shall have exclusive jurisdiction in
+respect of any dispute arising out of or in connection with this Agreement,
+subject to either Party's right to seek interim or injunctive relief in
+any court of competent jurisdiction.
+
+
+13. NOTICES
+All notices under this Agreement shall be in writing and delivered by
+hand, courier, registered post or email with confirmation of receipt, to
+the addresses set out below the signature blocks (or such other address
+as a Party may notify in writing).
+
+
+14. GENERAL PROVISIONS
+14.1 Entire Agreement. This Agreement constitutes the entire understanding
+between the Parties concerning its subject matter and supersedes all prior
+or contemporaneous communications.
+
+14.2 Amendment. Any amendment to this Agreement must be in writing and
+signed by authorised representatives of both Parties.
+
+14.3 No Waiver. No failure or delay by either Party in exercising any
+right shall operate as a waiver, nor shall any single or partial exercise
+preclude any other or further exercise thereof.
+
+14.4 Severability. If any provision of this Agreement is held to be
+invalid or unenforceable, the remaining provisions shall continue in full
+force, and the invalid provision shall be modified to the minimum extent
+necessary to render it enforceable while preserving its commercial intent.
+
+14.5 Assignment. Neither Party may assign this Agreement, in whole or in
+part, without the prior written consent of the other Party, save that
+either Party may assign to an affiliate, or in connection with a merger,
+acquisition or sale of substantially all of its assets, on notice to the
+other.
+
+14.6 Counterparts; Electronic Signatures. This Agreement may be executed
+in counterparts (including by electronic signature or scanned PDF), each
+of which shall be deemed an original, and which together shall constitute
+one and the same instrument.
+
+14.7 Headings. Section headings are for convenience only and shall not
+affect the interpretation of this Agreement.
+
+
+------------------------------------------------------------------------
+
+SIGNED FOR AND ON BEHALF OF                  SIGNED FOR AND ON BEHALF OF
+ADVALORA CONSULTING                          CLIENT
+
+Name:    Amrith Pujarie                      Name:    ____________________
+Title:   Founder & Principal Advisor         Title:   ____________________
+Date:    ____________________                Date:    ____________________
+Signature: ___________________               Signature: __________________
+
+Address: C 228 Shreyas Industrial            Address: ____________________
+         Estate, Near Jay Coach,                      ____________________
+         Goregaon East,                               ____________________
+         Mumbai 400063, India
+Email:   amrith.pujarie@advaloraconsulting.com
+                                             Email:   ____________________
+
+
+------------------------------------------------------------------------
+
+DISCLAIMER
+This template is provided for convenience and does not constitute legal
+advice. Each Party is encouraged to obtain independent legal counsel and
+to tailor this Agreement to its specific circumstances, jurisdiction and
+risk profile before signing. Advalora Consulting accepts no liability for
+any use of this template without legal review.
+
+Document: NDA / v1.0  -  Confidential
