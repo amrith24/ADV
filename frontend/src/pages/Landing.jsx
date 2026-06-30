@@ -362,10 +362,10 @@ function Hero() {
       />
       <div className="absolute inset-x-0 top-0 bottom-0 bg-gradient-to-b from-white via-white/80 to-white pointer-events-none" />
 
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-24 md:pt-32 pb-24 md:pb-32">
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-16 md:pt-20 pb-16 md:pb-20">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-8 fade-up">
-            <div className="inline-flex items-center gap-2 mb-8 border border-zinc-200 px-3 py-1.5 rounded-sm">
+            <div className="inline-flex items-center gap-2 mb-6 border border-zinc-200 px-3 py-1.5 rounded-sm">
               <span className="h-1.5 w-1.5 bg-red-600 animate-pulse" />
               <span className="font-mono text-[11px] tracking-[0.18em] uppercase text-zinc-600">
                 Advisory &middot; For CIOs &amp; CTOs
@@ -375,7 +375,7 @@ function Hero() {
             <h1
               key={idx}
               data-testid={`hero-headline-${idx}`}
-              className="font-display text-[40px] sm:text-6xl lg:text-[76px] leading-[1.04] tracking-[-0.025em] font-bold text-zinc-950 fade-up min-h-[160px] sm:min-h-[200px] lg:min-h-[260px]"
+              className="font-display text-[40px] sm:text-6xl lg:text-[72px] leading-[1.04] tracking-[-0.025em] font-bold text-zinc-950 fade-up min-h-[140px] sm:min-h-[180px] lg:min-h-[220px]"
             >
               {h.before}{" "}
               <span className="text-zinc-400">{h.accent}</span> {h.after}
@@ -397,13 +397,13 @@ function Hero() {
               ))}
             </div>
 
-            <p className="mt-8 max-w-2xl text-[17px] md:text-lg leading-relaxed text-zinc-700">
+            <p className="mt-6 max-w-2xl text-[17px] md:text-lg leading-relaxed text-zinc-700">
               We are the licensing advisors who used to sit on the other side of the table.
               Ex-Oracle LMS. Independent. Quiet. We protect your position before it becomes a
               line item on the board pack.
             </p>
 
-            <div className="mt-10 flex flex-col sm:flex-row gap-3">
+            <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a
                 href="#contact"
                 data-testid="hero-cta-primary"
@@ -424,7 +424,7 @@ function Hero() {
               </a>
             </div>
 
-            <div className="mt-12 flex items-center gap-6 text-[12px] font-mono uppercase tracking-[0.16em] text-zinc-500">
+            <div className="mt-8 flex items-center gap-6 text-[12px] font-mono uppercase tracking-[0.16em] text-zinc-500">
               <span>NDA on request</span>
               <span className="h-3 w-px bg-zinc-300" />
               <span>Privileged engagement</span>
@@ -512,7 +512,7 @@ function Marquee() {
 function PainPoints() {
   return (
     <section id="pain" data-testid="pain-section" className="border-b border-zinc-200">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <SectionHeader
           eyebrow="The four-alarm fires"
           title={
@@ -524,7 +524,7 @@ function PainPoints() {
           intro="Four conversations we have, almost weekly, with leaders running enterprise software estates."
         />
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 border-l border-t border-zinc-200">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 border-l border-t border-zinc-200">
           {PAIN_POINTS.map((p, i) => (
             <div
               key={i}
@@ -572,14 +572,14 @@ function SectionHeader({ eyebrow, title, intro }) {
 function Services() {
   return (
     <section id="services" data-testid="services-section" className="border-b border-zinc-200 bg-zinc-50/60">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <SectionHeader
           eyebrow="Capabilities"
           title="What we do, narrowly and deeply."
           intro="Six engagement modes. Oracle is the home court — software licensing is the discipline."
         />
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-l border-t border-zinc-200 bg-white">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-l border-t border-zinc-200 bg-white">
           {SERVICES.map((s, i) => (
             <div
               key={i}
@@ -620,7 +620,7 @@ function Services() {
 function Approach() {
   return (
     <section id="approach" data-testid="approach-section" className="border-b border-zinc-200">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <SectionHeader
           eyebrow="Engagement model"
           title="Four steps. No theatre."
@@ -631,7 +631,7 @@ function Approach() {
             <div
               key={i}
               data-testid={`approach-step-${i}`}
-              className="border-r border-b border-zinc-200 p-8 md:p-10 min-h-[260px] flex flex-col"
+              className="border-r border-b border-zinc-200 p-8 md:p-10 min-h-[220px] flex flex-col"
             >
               <div className="font-display text-6xl md:text-7xl font-bold tracking-tighter text-zinc-200 leading-none">
                 {step.no}
@@ -653,7 +653,7 @@ function Approach() {
 function Stats() {
   return (
     <section data-testid="stats-section" className="bg-grain text-white border-b border-zinc-200">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-7">
             <div className="font-mono text-[11px] tracking-[0.2em] uppercase text-zinc-400 mb-6">
@@ -712,7 +712,7 @@ function DarkStat({ n, value, label }) {
 function Founder() {
   return (
     <section id="founder" data-testid="founder-section" className="border-b border-zinc-200">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-5">
             <div className="aspect-[4/5] w-full bg-zinc-100 overflow-hidden relative">
@@ -797,7 +797,7 @@ function Founder() {
 function FAQ() {
   return (
     <section id="faq" data-testid="faq-section" className="border-b border-zinc-200 bg-zinc-50/60">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <div className="grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-4">
             <SectionHeader eyebrow="FAQ" title="Questions we get, weekly." />
@@ -868,7 +868,7 @@ function LeadCapture() {
 
   return (
     <section id="contact" data-testid="contact-section" className="border-b border-zinc-200">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-24 md:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-5">
             <div className="font-mono text-[11px] tracking-[0.2em] uppercase text-zinc-500 mb-6">
