@@ -99,7 +99,7 @@ const SERVICES = [
     icon: ClipboardText,
     title: "Compliance Review",
     body:
-      "Independent Effective Licence Position (ELP) — built the way LMS would build it, before LMS does. No surprises, no exposure.",
+      "Independent Effective Licence Position (ELP) — built the way LMS would build it, before LMS does. No surprises, no exposure. The same forensic method, applied to Microsoft SAM engagements, SAP system measurement, IBM ILMT, VMware True-Forward and Adobe deployment audits — so every vendor sees the position you choose to show, not the one they assume.",
     bullets: ["ELP build-out", "Risk heatmap", "Remediation roadmap"],
   },
   {
