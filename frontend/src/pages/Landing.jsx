@@ -645,8 +645,8 @@ function Founder() {
           <div className="lg:col-span-5">
             <div className="aspect-[4/5] w-full bg-zinc-100 overflow-hidden relative">
               <img
-                src="https://images.pexels.com/photos/8353841/pexels-photo-8353841.jpeg"
-                alt="Founder portrait"
+                src="https://customer-assets.emergentagent.com/job_cio-licensing-guide/artifacts/z2or6x1x_Amrith%20Pujarie.jpeg"
+                alt="Amrith Pujarie — Founder, Advalora Consulting"
                 className="h-full w-full object-cover"
                 data-testid="founder-image"
               />
