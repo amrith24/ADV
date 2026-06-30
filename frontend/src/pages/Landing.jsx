@@ -683,7 +683,7 @@ function Stats() {
               ELP review, the exposure compounds.
             </h2>
             <p className="mt-6 max-w-xl text-[16px] leading-relaxed text-zinc-400">
-              An Oracle compliance gap caught nine months early is a budget conversation.
+              An Oracle compliance gap caught twelve months early is a budget conversation.
               Caught at audit, it is a board conversation. The mechanics do not change — the
               leverage does.
             </p>
@@ -701,7 +701,7 @@ function Stats() {
 
           <div className="lg:col-span-5 lg:border-l lg:border-zinc-800 lg:pl-10">
             <DarkStat n="01" value="22 – 38%" label="Typical Oracle estate optimisation, year one" />
-            <DarkStat n="02" value="9 mo" label="Recommended runway before ULA certification" />
+            <DarkStat n="02" value="12 mo" label="Recommended runway before ULA certification" />
             <DarkStat n="03" value="19+" label="Years on the LMS audit floor" />
             <DarkStat n="04" value="100%" label="Engagements under strict NDA" />
           </div>
