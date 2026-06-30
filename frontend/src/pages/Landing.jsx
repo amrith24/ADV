@@ -421,12 +421,22 @@ function Marquee() {
     "Oracle EBS",
     "Fusion Middleware",
     "Oracle Cloud (OCI)",
-    "Microsoft 365",
+    "Microsoft 365 / O365",
+    "Microsoft SQL Server",
+    "Windows Server Datacenter",
+    "AWS",
+    "Azure",
+    "Google Cloud",
     "SAP S/4HANA",
+    "SAP RISE",
     "VMware vSphere",
+    "VMware Cloud Foundation",
     "IBM Passport Advantage",
+    "IBM Db2",
     "Salesforce",
     "ServiceNow",
+    "Adobe Enterprise",
+    "Red Hat OpenShift",
   ];
   const loop = [...items, ...items];
   return (
