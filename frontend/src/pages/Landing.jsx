@@ -362,7 +362,7 @@ function Hero() {
       />
       <div className="absolute inset-x-0 top-0 bottom-0 bg-gradient-to-b from-white via-white/80 to-white pointer-events-none" />
 
-      <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-16 md:pt-20 pb-16 md:pb-20">
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-14 md:pt-16 pb-12 md:pb-16">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
           <div className="lg:col-span-8 fade-up">
             <div className="inline-flex items-center gap-2 mb-6 border border-zinc-200 px-3 py-1.5 rounded-sm">
@@ -542,7 +542,7 @@ function PainPoints() {
           intro="Four conversations we have, almost weekly, with leaders running enterprise software estates."
         />
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 border-l border-t border-zinc-200">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 border-l border-t border-zinc-200">
           {PAIN_POINTS.map((p, i) => (
             <div
               key={i}
@@ -597,7 +597,7 @@ function Services() {
           intro="Six engagement modes. Oracle is the home court — software licensing is the discipline."
         />
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-l border-t border-zinc-200 bg-white">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-l border-t border-zinc-200 bg-white">
           {SERVICES.map((s, i) => (
             <div
               key={i}
@@ -649,7 +649,7 @@ function Approach() {
             <div
               key={i}
               data-testid={`approach-step-${i}`}
-              className="border-r border-b border-zinc-200 p-8 md:p-10 min-h-[220px] flex flex-col"
+              className="border-r border-b border-zinc-200 p-7 md:p-8 min-h-[200px] flex flex-col"
             >
               <div className="font-display text-6xl md:text-7xl font-bold tracking-tighter text-zinc-200 leading-none">
                 {step.no}
@@ -1191,7 +1191,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-zinc-800">
+        <div className="mt-12 pt-8 border-t border-zinc-800">
           <div
             data-testid="footer-disclaimer"
             className="text-[11px] leading-relaxed text-zinc-500"
