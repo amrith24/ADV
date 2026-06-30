@@ -730,10 +730,10 @@ function DarkStat({ n, value, label }) {
 function Founder() {
   return (
     <section id="founder" data-testid="founder-section" className="border-b border-zinc-200">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
-        <div className="grid lg:grid-cols-12 gap-12 lg:gap-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 py-12 md:py-16">
+        <div className="grid lg:grid-cols-12 gap-10 lg:gap-14 lg:items-center">
           <div className="lg:col-span-5">
-            <div className="aspect-[4/5] w-full bg-zinc-100 overflow-hidden relative">
+            <div className="aspect-[4/5] w-full max-w-[460px] mx-auto bg-zinc-100 overflow-hidden relative">
               <img
                 src="https://customer-assets.emergentagent.com/job_cio-licensing-guide/artifacts/z2or6x1x_Amrith%20Pujarie.jpeg"
                 alt="Amrith Pujarie — Founder, Advalora Consulting"
