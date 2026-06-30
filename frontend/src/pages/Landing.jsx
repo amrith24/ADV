@@ -437,7 +437,7 @@ function Hero() {
             <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-zinc-500 mb-6">
               By the numbers
             </div>
-            <Stat label="Years inside the licensing engine" value="14+" />
+            <Stat label="Years inside the licensing engine" value="19+" />
             <Stat label="Cost positions recovered (cumulative)" value="$120M+" />
             <Stat label="Average optimisation on Oracle estate" value="22 – 38%" />
             <Stat label="Audits managed end-to-end" value="60+" />
@@ -702,7 +702,7 @@ function Stats() {
           <div className="lg:col-span-5 lg:border-l lg:border-zinc-800 lg:pl-10">
             <DarkStat n="01" value="22 – 38%" label="Typical Oracle estate optimisation, year one" />
             <DarkStat n="02" value="9 mo" label="Recommended runway before ULA certification" />
-            <DarkStat n="03" value="14+" label="Years on the LMS audit floor" />
+            <DarkStat n="03" value="19+" label="Years on the LMS audit floor" />
             <DarkStat n="04" value="100%" label="Engagements under strict NDA" />
           </div>
         </div>
