@@ -438,7 +438,7 @@ function Hero() {
               By the numbers
             </div>
             <Stat label="Years inside the licensing engine" value="19+" />
-            <Stat label="Cost positions recovered (cumulative)" value="$120M+" />
+            <Stat label="Cost positions recovered (cumulative)" value="$95M+" />
             <Stat label="Average optimisation on Oracle estate" value="22 – 38%" />
             <Stat label="Audits managed end-to-end" value="60+" />
           </div>
