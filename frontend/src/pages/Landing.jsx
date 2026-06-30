@@ -218,13 +218,17 @@ function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="flex h-16 items-center justify-between">
-          <a href="#top" data-testid="brand-mark" className="flex items-center gap-2.5">
-            <span className="grid h-8 w-8 place-items-center bg-zinc-950 text-white font-display font-bold text-sm">
-              A
-            </span>
-            <span className="font-display font-semibold text-[15px] tracking-tight">
-              {BRAND.mark}
-              <span className="text-zinc-400"> / Consulting</span>
+          <a href="#top" data-testid="brand-mark" className="flex items-center gap-3">
+            <img
+              src={BRAND.logo}
+              alt="Advalora Consulting"
+              className="h-10 w-10 object-contain"
+            />
+            <span className="font-display font-semibold text-[15px] tracking-tight leading-none hidden sm:block">
+              ADVALORA
+              <span className="block text-[10px] tracking-[0.2em] font-mono font-normal text-zinc-500 mt-1">
+                CONSULTING
+              </span>
             </span>
           </a>
 
@@ -1007,18 +1011,40 @@ function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 py-16 md:py-20">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <div className="flex items-center gap-2.5">
-              <span className="grid h-8 w-8 place-items-center bg-white text-zinc-950 font-display font-bold text-sm">
-                A
-              </span>
-              <span className="font-display font-semibold text-[15px] tracking-tight">
-                {BRAND.mark} <span className="text-zinc-500">/ Consulting</span>
+            <div className="flex items-center gap-3">
+              <div className="bg-white p-1.5 rounded-sm">
+                <img
+                  src={BRAND.logo}
+                  alt="Advalora Consulting"
+                  className="h-10 w-10 object-contain"
+                />
+              </div>
+              <span className="font-display font-semibold text-[15px] tracking-tight leading-none">
+                ADVALORA
+                <span className="block text-[10px] tracking-[0.2em] font-mono font-normal text-zinc-500 mt-1">
+                  CONSULTING
+                </span>
               </span>
             </div>
             <p className="mt-6 max-w-sm text-[14px] leading-relaxed text-zinc-400">
               Independent software licensing advisory for the enterprise. Ex-Oracle LMS.
               Confidential by design.
             </p>
+            <div className="mt-6">
+              <div className="font-mono text-[10px] tracking-[0.2em] uppercase text-zinc-500 mb-2">
+                Office
+              </div>
+              <address
+                data-testid="footer-address"
+                className="not-italic text-[13px] leading-relaxed text-zinc-400"
+              >
+                {BRAND.address.line1}
+                <br />
+                {BRAND.address.line2}
+                <br />
+                {BRAND.address.city}, {BRAND.address.country}
+              </address>
+            </div>
           </div>
 
           <div className="md:col-span-3">
