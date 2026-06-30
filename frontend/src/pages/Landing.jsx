@@ -326,12 +326,12 @@ function Hero() {
       after: "by accident.",
     },
     {
-      before: "Microsoft 365 renewals don\u2019t shrink",
+      before: "Microsoft 365 bills don\u2019t shrink",
       accent: "in your favour",
       after: "by accident.",
     },
     {
-      before: "SAP, VMware & cloud contracts don\u2019t tilt",
+      before: "Adobe & Corel audits don\u2019t land",
       accent: "in your favour",
       after: "by accident.",
     },
@@ -1173,12 +1173,37 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
-          <div className="text-[12px] text-zinc-500">
-            © {new Date().getFullYear()} {BRAND.name}. All rights reserved.
+        <div className="mt-16 pt-8 border-t border-zinc-800">
+          <div
+            data-testid="footer-disclaimer"
+            className="text-[11px] leading-relaxed text-zinc-500 max-w-5xl"
+          >
+            <span className="font-mono uppercase tracking-[0.18em] text-zinc-400">
+              Trademarks &amp; disclaimer.
+            </span>{" "}
+            All third-party product, company and brand names referenced on this site —
+            including but not limited to Oracle&reg;, Oracle Database, Java&reg;, Oracle LMS,
+            Oracle Cloud Infrastructure (OCI), Microsoft&reg;, Microsoft 365, Office 365,
+            Azure&reg;, Windows Server, SQL Server, SAP&reg;, S/4HANA, VMware&reg;, IBM&reg;,
+            Db2, Passport Advantage, Adobe&reg;, Corel&reg;, Amazon Web Services (AWS),
+            Google Cloud, Salesforce&reg;, ServiceNow&reg; and Red Hat&reg; — are
+            trademarks, service marks or registered trademarks of their respective owners
+            and are used here for descriptive and editorial purposes only. Advalora
+            Consulting is an independent advisory firm and is not affiliated with,
+            authorised by, endorsed by, sponsored by, or otherwise connected to any of
+            these companies. The views, opinions and methodologies expressed on this site
+            are those of Advalora Consulting alone and do not represent the views of any
+            third-party vendor. Nothing on this site constitutes legal advice; engagements
+            are governed by a separate written contract.
           </div>
-          <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-zinc-500">
-            Confidential. NDA on request.
+
+          <div className="mt-8 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+            <div className="text-[12px] text-zinc-500">
+              &copy; {new Date().getFullYear()} {BRAND.name}. All rights reserved.
+            </div>
+            <div className="font-mono text-[11px] tracking-[0.18em] uppercase text-zinc-500">
+              Confidential. NDA on request.
+            </div>
           </div>
         </div>
       </div>
