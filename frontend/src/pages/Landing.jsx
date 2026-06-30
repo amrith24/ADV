@@ -173,6 +173,16 @@ const FAQS = [
     a:
       "Yes. The same methodology applies to Microsoft, SAP, IBM, VMware and most enterprise software contracts. Oracle is where we built the muscle — software licensing is the discipline.",
   },
+  {
+    q: "Can you really save us money on Microsoft 365?",
+    a:
+      "Almost always — the median enterprise we review is over-licensed by 18–30% on M365. We map active usage (sign-ins, last-active-day, app-level telemetry) against assigned SKUs, identify dormant E3/E5 seats, downgrade or reclaim them, and renegotiate the EA or CSP at renewal. We also unpack what you're paying twice for: Defender, Intune, Power BI Pro, Visio — features bundled in E5 but often bought as add-ons. Typical year-one saving: 15–25% of the M365 spend.",
+  },
+  {
+    q: "Where does Advalora fit alongside our existing ITAM / SAM tooling?",
+    a:
+      "Tools (Flexera, ServiceNow SAM Pro, USU, Snow) measure — they don't negotiate, they don't read contracts, and they don't carry the vendor risk conversation to the CFO. We sit on top of your tooling: we validate the entitlement baseline, fix the inventory-to-contract mapping, build the Effective Licence Position the auditor will actually accept, and run the publisher engagements. Think of us as the strategy layer your ITAM platform was never built to deliver.",
+  },
 ];
 
 // ===================== Page =====================
