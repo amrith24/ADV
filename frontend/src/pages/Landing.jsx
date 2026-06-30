@@ -321,19 +321,19 @@ function Header() {
 function Hero() {
   const headlines = [
     {
-      before: "Oracle audits don\u2019t end",
-      accent: "in your favour",
-      after: "by accident.",
+      before: "The Oracle audit you fear was",
+      accent: "written into the contract",
+      after: "you signed.",
     },
     {
-      before: "Microsoft 365 bills don\u2019t shrink",
-      accent: "in your favour",
-      after: "by accident.",
+      before: "Microsoft never refunds the M365 seats",
+      accent: "you forgot to deactivate.",
+      after: "",
     },
     {
-      before: "Adobe & Corel audits don\u2019t land",
-      accent: "in your favour",
-      after: "by accident.",
+      before: "Adobe and Corel don\u2019t audit you. They",
+      accent: "invoice you",
+      after: "\u2014 and call it an audit.",
     },
   ];
   const [idx, setIdx] = useState(0);
