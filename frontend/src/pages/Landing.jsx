@@ -319,6 +319,34 @@ function Header() {
 // ===================== Hero =====================
 
 function Hero() {
+  const headlines = [
+    {
+      before: "Oracle audits don\u2019t end",
+      accent: "in your favour",
+      after: "by accident.",
+    },
+    {
+      before: "Microsoft 365 renewals don\u2019t shrink",
+      accent: "in your favour",
+      after: "by accident.",
+    },
+    {
+      before: "SAP, VMware & cloud contracts don\u2019t tilt",
+      accent: "in your favour",
+      after: "by accident.",
+    },
+  ];
+  const [idx, setIdx] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setIdx((i) => (i + 1) % headlines.length);
+    }, 4500);
+    return () => clearInterval(id);
+  }, [headlines.length]);
+
+  const h = headlines[idx];
+
   return (
     <section id="top" data-testid="hero" className="relative border-b border-zinc-200 overflow-hidden">
       {/* faint background image */}
@@ -340,14 +368,34 @@ function Hero() {
             <div className="inline-flex items-center gap-2 mb-8 border border-zinc-200 px-3 py-1.5 rounded-sm">
               <span className="h-1.5 w-1.5 bg-red-600 animate-pulse" />
               <span className="font-mono text-[11px] tracking-[0.18em] uppercase text-zinc-600">
-                Advisory · For CIOs & CTOs
+                Advisory &middot; For CIOs &amp; CTOs
               </span>
             </div>
 
-            <h1 className="font-display text-[44px] sm:text-6xl lg:text-[80px] leading-[1.02] tracking-[-0.025em] font-bold text-zinc-950">
-              Oracle audits don&apos;t end{" "}
-              <span className="text-zinc-400">in your favour</span> by accident.
+            <h1
+              key={idx}
+              data-testid={`hero-headline-${idx}`}
+              className="font-display text-[40px] sm:text-6xl lg:text-[76px] leading-[1.04] tracking-[-0.025em] font-bold text-zinc-950 fade-up min-h-[160px] sm:min-h-[200px] lg:min-h-[260px]"
+            >
+              {h.before}{" "}
+              <span className="text-zinc-400">{h.accent}</span> {h.after}
             </h1>
+
+            {/* slide indicators */}
+            <div className="mt-6 flex items-center gap-2" data-testid="hero-slide-indicators">
+              {headlines.map((_, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  aria-label={`Show headline ${i + 1}`}
+                  data-testid={`hero-slide-${i}`}
+                  onClick={() => setIdx(i)}
+                  className={`h-[3px] transition-all ${
+                    i === idx ? "w-10 bg-zinc-950" : "w-5 bg-zinc-300 hover:bg-zinc-500"
+                  }`}
+                />
+              ))}
+            </div>
 
             <p className="mt-8 max-w-2xl text-[17px] md:text-lg leading-relaxed text-zinc-700">
               We are the licensing advisors who used to sit on the other side of the table.
