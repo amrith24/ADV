@@ -1176,7 +1176,7 @@ function Footer() {
         <div className="mt-16 pt-8 border-t border-zinc-800">
           <div
             data-testid="footer-disclaimer"
-            className="text-[11px] leading-relaxed text-zinc-500 max-w-5xl"
+            className="text-[11px] leading-relaxed text-zinc-500"
           >
             <span className="font-mono uppercase tracking-[0.18em] text-zinc-400">
               Trademarks &amp; disclaimer.
