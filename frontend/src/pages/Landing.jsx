@@ -859,31 +859,43 @@ function LeadCapture() {
     phone: "",
     challenge: "",
   });
-  const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
+  const WEB3FORMS_KEY = \"ce455664-c379-4b92-91c8-eb1472b11871\"; // <-- paste the UUID from Part 2
 
-  const update = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
-
-  const submit = async (e) => {
-    e.preventDefault();
-    if (!form.name || !form.company || !form.email || !form.challenge) {
-      toast.error("Please complete the required fields.");
-      return;
-    }
-    setSubmitting(true);
-    try {
-      await axios.post(`${API}/leads`, form);
+const submit = async (e) => {
+  e.preventDefault();
+  if (!form.name || !form.company || !form.email || !form.challenge) {
+    toast.error(\"Please complete the required fields.\");
+    return;
+  }
+  setSubmitting(true);
+  try {
+    const fd = new FormData();
+    fd.append(\"access_key\", WEB3FORMS_KEY);
+    fd.append(\"subject\", `New Advalora enquiry — ${form.company}`);
+    fd.append(\"from_name\", \"Advalora Lead Form\");
+    fd.append(\"name\", form.name);
+    fd.append(\"role\", form.role || \"—\");
+    fd.append(\"company\", form.company);
+    fd.append(\"email\", form.email);
+    fd.append(\"phone\", form.phone || \"—\");
+    fd.append(\"challenge\", form.challenge);
+    const res = await fetch(\"https://api.web3forms.com/submit\", {
+      method: \"POST\",
+      body: fd,
+    });
+    const data = await res.json();
+    if (data.success) {
       setSubmitted(true);
-      toast.success("Received. Amrith will reply within one business day.");
-      setForm({ name: "", role: "", company: "", email: "", phone: "", challenge: "" });
-    } catch (err) {
-      console.error(err);
-      const detail = err?.response?.data?.detail;
-      toast.error(
-        typeof detail === "string" ? detail : "Submission failed. Please email us directly."
-      );
-    } finally {
-      setSubmitting(false);
+      toast.success(\"Received. Amrith will reply within one business day.\");
+      setForm({ name: \"\", role: \"\", company: \"\", email: \"\", phone: \"\", challenge: \"\" });
+    } else {
+      throw new Error(data.message || \"Submission failed\");
+    }
+  } catch (err) {
+    console.error(err);
+    toast.error(\"Submission failed. Please email us directly.\");
+  } finally {
+    setSubmitting(false);
     }
   };
 
